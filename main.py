@@ -38,7 +38,7 @@ def monster_turn(player, monster_target):
 
 show_characters(character_data)
 selected_num = int(input("플래이할 캐릭터의 번호를 선택해주세요:")) - 1
-player = character_data[selecte_num]
+player = character_data[selected_num]
 
 print(f"\n▶ [{player[0]}]을(를) 선택하셨습니다! 건투를 시작합니다.")
 
@@ -59,4 +59,4 @@ print("\n=== 전투 종료 ===")
 if player[3] > 0:
     print(f"🎉 승리했습니다! {monster[0]}를 물리쳤습니다.")
 else:
-    print("💀 패배했습니다... 다시 도전하세요.")
+    print("💀 패배했습니다... 다시 시도해보세요...")
